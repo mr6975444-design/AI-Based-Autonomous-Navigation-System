@@ -192,3 +192,29 @@ Add your project links here after publishing:
 The image below shows the robot's planned path from the start position to the goal using the A* pathfinding algorithm.
 
 ![Autonomous Navigation Simulation](outputs/navigation_result.png)
+## System Architecture
+
+The AI-Based Autonomous Navigation System consists of four main components:
+
+1. **Environment:** Represents the grid containing the start position, goal, and obstacles.
+2. **A* Path Planner:** Finds a path from the start to the goal while avoiding obstacles.
+3. **Robot Controller:** Moves the robot along the calculated path.
+4. **Visualization:** Displays the environment, planned path, and robot position.
+
+### Navigation Workflow
+
+```text
+Environment Grid
+       |
+       v
+ A* Path Planner
+       |
+       v
+ Robot Controller
+       |
+       v
+  Visualization
+       |
+       v
+ Navigation Result
+```
