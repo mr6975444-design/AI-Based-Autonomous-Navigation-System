@@ -187,3 +187,8 @@ Add your project links here after publishing:
 
 - GitHub: Your GitHub profile URL
 - Project Repository: Your repository URL
+## Navigation Simulation Result
+
+The image below shows the robot's planned path from the start position to the goal using the A* pathfinding algorithm.
+
+![Autonomous Navigation Simulation](outputs/navigation_result.png)
